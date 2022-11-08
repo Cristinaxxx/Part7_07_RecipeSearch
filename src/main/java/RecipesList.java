@@ -34,7 +34,7 @@ public class RecipesList {
     }
     
     public void readFromFile(String filename) {
-        
+        // Added a comment
         ArrayList<ArrayList<String>> collectionOfRecipes = new ArrayList<>();
         
         try (Scanner reader = new Scanner(Paths.get((filename)))){
